@@ -128,3 +128,74 @@ body {
     font-weight: 700;
     margin-top: 2px;
 }
+motivation-body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.golden-text {
+    color: #ffc107;
+}
+.white-text {
+    color: white;
+}
+.membership-card {
+    background-color: #2c2c2c;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.card-header-golden {
+    background-color: #ffc107;
+    padding: 12px 15px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+.card-header-lightblue {
+    background-color: #add8e6;
+    padding: 12px 15px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+.card-title {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+    cursor: pointer;
+}
+.membership-description {
+    color: white;
+    font-size: 0.95rem;
+    padding: 0 10px 10px;
+    margin: 0;
+}
+.golden-small-box {
+    background-color: #ffc107;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin: 20px 0 15px;
+    text-align: center;
+}
+.golden-small-box a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.golden-small-box a:hover {
+    text-decoration: underline;
+}
+.golden-footer {
+    background-color: #ffc107;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin-top: 10px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2c2c2c;
+    font-size: 1rem;
+    font-weight: 600;
+}
