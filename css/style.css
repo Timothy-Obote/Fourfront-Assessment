@@ -199,3 +199,24 @@ motivation-body {
     font-size: 1rem;
     font-weight: 600;
 }
+.whatsapp-icon {
+    font-size: 2.5rem;
+    color: #25D366;
+    cursor: pointer;
+}
+@media (max-width: 400px) {
+    .profile-name {
+        font-size: 1.5rem;
+    }
+    .color-box {
+        padding: 8px 5px;
+        font-size: 0.9rem;
+    }
+    .member-points {
+        font-size: 1rem;
+    }
+    .box-profile-img {
+        width: 30px;
+        height: 30px;
+    }
+}
