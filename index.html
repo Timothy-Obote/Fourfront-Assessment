@@ -134,6 +134,37 @@
                 <span class="whatsapp-icon"><i class="fab fa-whatsapp"></i></span>
             </div>
         </div>
+
+
+        <!-- MEMBERSHIP DETAILS MODAL (new) -->
+        <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="detailsModalLabel">Membership Details</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Foundation Membership</h6>
+                        <p>We invest for you, in shares and in the Mansa-X global fund. Service is free online with your personal representative, but service in the office may have extra charges.</p>
+                        <h6>Economy Membership</h6>
+                        <p>We will invest your money for you at a guaranteed rate with the Mansa-X global fund. Service is free online with your personal representative, but service in the office may have extra charges.</p>
+                        <hr>
+                        <h6>Subscribe for updates</h6>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                        </div>
+                        <button class="btn btn-primary" onclick="validateEmail()">Subscribe</button>
+                        <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     
     </div> <!-- end outer-container -->
 

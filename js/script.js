@@ -19,3 +19,18 @@ document.addEventListener('click', function(event) {
         menu.classList.add('d-none');
     }
 });
+
+// Simple email validation for the modal
+function validateEmail() {
+    const email = document.getElementById('emailInput').value;
+    const helpDiv = document.getElementById('emailHelp');
+    if (!email.includes('@') || !email.includes('.')) {
+        helpDiv.textContent = 'Please enter a valid email address.';
+        helpDiv.style.color = 'red';
+    } else {
+        helpDiv.textContent = 'Thank you for subscribing!';
+        helpDiv.style.color = 'green';
+        // Optionally clear the input
+        document.getElementById('emailInput').value = '';
+    }
+}
