@@ -118,17 +118,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 0;
 }
+
 .member-name {
     font-size: 1rem;
     font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .member-points {
     font-size: 1.2rem;
     font-weight: 700;
     margin-top: 2px;
 }
-motivation-body {
+.motivation-body {
     font-size: 1rem;
     line-height: 1.5;
 }
